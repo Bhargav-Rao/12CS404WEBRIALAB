@@ -1,0 +1,7 @@
+DirectoryIndex index.html
+Options Indexes FollowSymLinks
+
+RewriteEngine On
+RewriteRule ^(update)\/([a-zA-Z0-9]+)$ server.php?method=$1&usn=$2
+RewriteRule ^(create)\/ server.php?method=$1
+RewriteRule ^(read)\/([a-zA-Z0-9]+)$ server.php?method=$1&usn=$2

@@ -1,0 +1,15 @@
+#n
+{
+	border: 2px solid black;
+	height: 20px;
+	padding: 10px;
+	word-wrap: break-word;
+	overflow: hidden;
+}
+.s
+{
+	color: orange;
+	white-space: nowrap;
+	overflow: hidden;
+	cursor: pointer;
+}

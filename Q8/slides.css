@@ -1,0 +1,36 @@
+img
+{
+	width: 300px;
+	height: 300px;
+}
+#s
+{
+	border:6px solid black;
+	width: 300px;
+	height: 300px;
+	padding: 10px;
+}
+#b
+{
+	width: 332px;
+}
+span
+{
+	height: 20px;
+	width: 40px;
+	border: 1px solid black;
+	padding: 5px;
+	margin: 5px;
+	cursor: pointer;
+}
+#p
+{
+	float: left;
+	color: green;
+	visibility: hidden;
+}
+#n
+{
+	float: right;
+	color: red;
+}
